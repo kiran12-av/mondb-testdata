@@ -1,0 +1,51 @@
+body{
+    background-color: lightgrey;
+}
+
+
+
+.custbtn{
+    background-color:orange;
+    color:brown;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+
+.swift li {
+    display: inline-block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1px;
+    background-color: white;
+    padding: 3em;
+    grid-gap:3em;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  @media(min-width:550px) {
+      .grid-container {
+          grid-template-columns: repeat(8,1fr);
+      }
+  }
+
+a{
+    cursor: pointer;
+}
+
+  a:hover {
+    background-color: yellow;
+    cursor:pointer;
+  }
